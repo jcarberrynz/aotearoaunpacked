@@ -665,7 +665,7 @@ window.AU_DATA = {"updated":"13 November 2026","ticker":[["5,357,300","people, J
     const hero = h("section", { class: "hero", "aria-labelledby": "page-title" }, [svg, h("div", { class: "hero-copy" }, [
       h("p", { class: "coords", "aria-hidden": "true", text: "41°17′S 174°46′E" }),
       h("h1", { id: "page-title", tabindex: "-1", text: "Aotearoa Unpacked" }),
-      h("p", { class: "lede", text: "New Zealand’s official statistics, charted over the long run and explained in plain English. Drag the slider under any chart to change the years shown." })
+      h("p", { class: "lede", text: "Understand key Kiwi data through easy to digest charts. Drag the slider under any chart to change the years shown." })
     ])]);
     const ticker = h("section", { class: "snapshot", "aria-labelledby": "snap-h" }, [h("h2", { id: "snap-h", class: "snapshot-title", text: "The latest numbers" }),
       h("ul", { class: "ticker" }, D.ticker.map(([v, l, t]) => h("li", {}, [h("a", { href: "#" + t }, [h("strong", { text: v }), h("span", { text: l })])])))]);
